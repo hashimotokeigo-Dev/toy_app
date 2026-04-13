@@ -1,4 +1,5 @@
 <div id="<%= dom_id user %>">
+
   <p>
     <strong>Name:</strong>
     <%= user.name %>
@@ -7,6 +8,11 @@
   <p>
     <strong>Email:</strong>
     <%= user.email %>
+  </p>
+
+  <p>
+    <strong>Micropost:</strong>
+    <%= user.microposts.first.content %>
   </p>
 
 </div>
